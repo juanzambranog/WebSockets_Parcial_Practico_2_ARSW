@@ -1,4 +1,4 @@
-package edu.eci.configuration;
+package edu.eci.websockets.configuration;
 
 
 import org.springframework.context.annotation.Configuration;
@@ -6,7 +6,7 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
 
-import edu.eci.GameHandler;
+import edu.eci.websockets.GameHandler;
 
 @Configuration
 @EnableWebSocket

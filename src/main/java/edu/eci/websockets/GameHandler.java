@@ -1,4 +1,4 @@
-package edu.eci;
+package edu.eci.websockets;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.*;

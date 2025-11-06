@@ -1,4 +1,4 @@
-package edu.eci;
+package edu.eci.websockets;
 
 import java.util.Collections;
 
