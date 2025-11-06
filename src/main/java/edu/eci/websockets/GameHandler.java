@@ -19,7 +19,10 @@ public class GameHandler extends TextWebSocketHandler {
     public void afterConnectionEstablished(WebSocketSession session) {
         sessions.add(session);
         System.out.println("Nueva conexión: " + session.getId());
+        System.out.println("✅ Nueva conexión: " + session.getId());
+        System.out.println("📊 Total sesiones: " + sessions.size());
         sendBoardTo(session);
+
     }
 
     @Override
@@ -75,5 +78,7 @@ public class GameHandler extends TextWebSocketHandler {
             e.printStackTrace();
         }
     }
+
+
 
 }
